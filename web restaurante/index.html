@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>FirstFood</title>
+</head>
+
+<body>
+    <header class="">
+        <div class="encabezado">
+            <div class="contenedor site-encabezado">
+                <div class="logo">
+                    <h1>FirstFood</h1>
+                </div>
+                <nav class="navegador">
+                    <a href="#" class="active">Inicio</a>
+                    <a href="#">Platillos</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Review</a>
+                    <a href="#">Pedido</a>
+                </nav>
+                <div class="icon-cliente">
+                    <span class="toggle"><i class="fas fa-bars"></i></span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-search" id="search"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+
+        </div>
+        <!--Fin de la barra del encabezado-->
+        <div class="buscador">
+            <i class="fas fa-times close"></i>
+            <div class="form">
+                <input type="search" placeholder="Realizar Busqueda...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <!--fin de la seccion del buscador-->
+
+        <div class="banner-header contenedor">
+            <div class="slider ">
+                <div class="contenedor-banner">
+                    <div class="text-banner banner">
+                        <p class="subtitulo">Nuestra Especialidad</p>
+                        <h2>Tostadas Syake</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt asperiores, vero alias molestiae placeat?.</p>
+                        <a href="#" class="btn btn-order">Ordenar Ahora</a>
+                    </div>
+                    <div class="img-banner banner">
+                        <img src="img/TOSTADAS+SYAKE.jpg" alt="">
+                    </div>
+                </div>
+                <!--Fin del contenedor de la informacion del banner-->
+                <div class="contenedor-banner">
+                    <div class="text-banner banner">
+                        <p class="subtitulo">Nuestra Especialidad</p>
+                        <h2>ROLLOS DE FILETE</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt asperiores, vero alias molestiae placeat?.</p>
+                        <a href="#" class="btn btn-order">Ordenar Ahora</a>
+                    </div>
+                    <div class="img-banner banner">
+                        <img src="img/rollos de filete.jpg" alt="">
+                    </div>
+                </div>
+                <!--Fin del contenedor de la informacion del banner-->
+                <div class="contenedor-banner">
+                    <div class="text-banner banner">
+                        <p class="subtitulo">Nuestra Especialidad</p>
+                        <h2>Ensalada De Espinaca Y Quinoa</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt asperiores, vero.</p>
+                        <a href="#" class="btn btn-order">Ordenar Ahora</a>
+                    </div>
+                    <div class="img-banner banner">
+                        <img src="img/ENSALADA DE ESPINACA Y QUINOA.jpg" alt="">
+                    </div>
+                </div>
+                <!--Fin del contenedor de la informacion del banner-->
+            </div>
+        </div>
+        <!--Fin de la seccion del banner o slider-->
+        <div class="indicador-banner">
+            <span class="active"></span><span></span><span></span>
+        </div>
+        <!--Fin de la seccion del indicador del slider o banner-->
+    </header>
+    <!--fin del encabezado de la pagina web-->
+
+    <main class="contenedor section-platos">
+        <h2>Nuestros Platillos</h2>
+        <div class="contenedor-platos">
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card1.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Pulpo al carbon</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$210.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card2.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Mini trompo al pastor</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$190.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card3.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Queso flameado con chorizo</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$158.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card4.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Chile en nogada</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$150.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card5.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>sopes de tuétano con escamoles</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$147.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card6.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>King crab</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$105.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card7.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Totoaba a la parrilla marinada con salsa</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$165.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/card8.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Caña de filete al mezcal</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$165.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+        </div>
+    </main>
+
+    <!--Bebidas y platillos-->
+    <div class="contenedor section-platos">
+        <h2>Nuestras Bebidad Y Postres</h2>
+        <div class="contenedor-platos">
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp1.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Pastel 24 Layers (rebanadas)</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$210.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp2.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Red Leches</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$190.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp3.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Espiral de churros</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$158.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp4.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Octopus Hug</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$150.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp5.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Volcán de dulce de leche</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$147.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp6.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Coctel de tequila</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$105.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp7.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                    </div>
+                    <h3>Copa de vino</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$165.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+            <div class="target-plato platillo">
+                <div class="img-platillo">
+                    <img src="img/bp8.jpg" alt="">
+                </div>
+                <div class="contenido-platillo">
+                    <div class="calificacion">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Naughty Kombucha</h3>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. flyn</p>
+                    <div class="price-add">
+                        <a href="#" class="btn btn-order">Pedir Platillo</a>
+                        <p class="precio">$165.MXN</p>
+                    </div>
+                    <p class="like-plato fas fa-heart icon"></p>
+
+                </div>
+            </div>
+            <!--Fin de la tarjeta plato-->
+
+        </div>
+    </div>
+    <!--Fin de las bebidas y postres-->
+
+    <!--seccion de los testimoniales-->
+    <h3 class="txt-center fw te-f">Testimoniales</h3>
+    <section class="testimoniales contenedor swiper mySwiper">
+        <div class="contenedor-tesmoniales swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="testimonial testimonio ">
+                    <div class="testi-encabezado">
+                        <img src="img/testimonial1.png" alt="">
+                        <div class="name-califi">
+                            <h3 class="name-person">Javier Hernandez</h3>
+                            <div class="calificacion">
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                            </div>
+                        </div>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati, maiores deleniti eos, ullam vel eius inventore dicta nesciunt aut cum, qui dolor quae similique sint magnam animi incidunt ab.</p>
+                </div>
+            </div>
+            <!--Fin del testimonial-->
+
+            <div class="swiper-slide">
+                <div class="testimonial testimonio ">
+                    <div class="testi-encabezado">
+                        <img src="img/testimonial2.png" alt="">
+                        <div class="name-califi">
+                            <h3 class="name-person">Carlos Lopez</h3>
+                            <div class="calificacion">
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                            </div>
+                        </div>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati, maiores deleniti eos, ullam vel eius inventore dicta nesciunt aut cum, qui dolor quae similique sint magnam animi incidunt ab.</p>
+                </div>
+            </div>
+            <!--Fin del testimonial-->
+
+            <div class="swiper-slide">
+                <div class="testimonial testimonio ">
+                    <div class="testi-encabezado">
+                        <img src="img/testimonial3.png" alt="">
+                        <div class="name-califi">
+                            <h3 class="name-person">Fernand Silva</h3>
+                            <div class="calificacion">
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                            </div>
+                        </div>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati, maiores deleniti eos, ullam vel eius inventore dicta nesciunt aut cum, qui dolor quae similique sint magnam animi incidunt ab.</p>
+                </div>
+            </div>
+            <!--Fin del testimonial-->
+
+            <div class="swiper-slide">
+                <div class="testimonial testimonio ">
+                    <div class="testi-encabezado">
+                        <img src="img/testimonial.png" alt="">
+                        <div class="name-califi">
+                            <h3 class="name-person">Sofia Estrada</h3>
+                            <div class="calificacion">
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                                <i class="fas fa-star active"></i>
+                            </div>
+                        </div>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati, maiores deleniti eos, ullam vel eius inventore dicta nesciunt aut cum, qui dolor quae similique sint magnam animi incidunt ab.</p>
+                </div>
+            </div>
+            <!--Fin del testimonial-->
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!--Fin de la seccion testimoniales-->
+
+    <!--Realizar Tu orden o pedido-->
+    <form action="" class="contenedor pedido">
+        <p>FirstFood</p>
+        <h3 class="txt-center title-pedido">Realiza tu pedido llenando el formulario</h3>
+        <div class="contenedor-pedido">
+            <div class="w-55">
+                <label for="name-person">Tu Nombre</label>
+                <input type="text" name="" id="name-person" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="w-55">
+                <label for="Telefono">Telefono</label>
+                <input type="tel" name="" id="Telefono" placeholder="Ingresa tu Numero de telefono">
+            </div>
+            <div class="w-55">
+                <label for="name-person">Tu Orden</label>
+                <input type="text" name="" id="name-person" placeholder="Ingresa el nombre de tu comida">
+            </div>
+            <div class="w-55">
+                <label for="Numero-pedidos">Numero de pedidos</label>
+                <input type="text" name="" id="Numero-pedidos" placeholder="Ingresa la cantidad de pedidos">
+            </div>
+            <div class="w-55 h-30">
+                <label for="direccion">Tu Direccion</label>
+                <textarea name="" id="direccion" placeholder="Ingresa tu direccion"></textarea>
+            </div>
+            <div class="w-55 h-30">
+                <label for="Mensaje">Mensaje</label>
+                <textarea id="Mensaje" placeholder="dejanos un mensaje"></textarea>
+            </div>
+        </div>
+        <a href="#" class="btn btn-order">Realizar Pedido</a>
+    </form>
+
+    <!--Footer-->
+    <footer class="site-footer">
+        <div class="contenedor">
+            <div class="contenedor-footer">
+                <div class="contenido-footer">
+                    <h4>Ubicacion</h4>
+                    <p>Avenida venustiano carranza #15, 38960, Cuidad de mexico, MX</p>
+                </div>
+                <div class="contenido-footer">
+                    <h4>Menu</h4>
+                    <a href="#">Inicio</a>
+                    <a href="#">Platillos</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Pedido</a>
+                </div>
+                <div class="contenido-footer">
+                    <h4>Contactos</h4>
+                    <p>+52 456-152-2025</p>
+                    <p>+52 454-122-0521</p>
+                    <p>firstfood@gmail.com</p>
+                    <p>firstfoodcdmx@food.mx</p>
+                </div>
+                <div class="contenido-footer">
+                    <h4>Redes Sociales</h4>
+                    <div class="redes-sociales">
+                        <div class="icono face">
+                            <i class="fab fa-facebook-f "></i>
+                        </div>
+                        <p>FirstFood MX</p>
+                    </div>
+                    <div class="redes-sociales">
+                        <div class="icono insta">
+                            <i class="fab fa-instagram "></i>
+                        </div>
+                        <p>FirstFood MX</p>
+                    </div>
+                    <div class="redes-sociales">
+                        <div class="icono twi">
+                            <i class="fab fa-twitter "></i>
+                        </div>
+                        <p>FirstFood MX</p>
+                    </div>
+
+                </div>
+            </div>
+            <h3 class="derechos-reservador">Copyright @ 2021 By Isaac Escutia Flores</h3>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+</body>
+
+</html>
